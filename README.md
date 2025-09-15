@@ -28,5 +28,6 @@ PR AUC: 0.6272
 
 ##### SHAP summary plot:
 The SHAP summary plot explains the contributions of the features to the prediction. Here, the genes BTNL2, ATXN2, and the first five principal components appear to be the most informative for prediction.
+
 <img width="300" height="550" alt="shap_summary_plotIBD_PCs1to5" src="https://github.com/user-attachments/assets/dbd8b250-1f63-48fa-8d58-67fd0e0ec74c" />
 
