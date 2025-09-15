@@ -2,8 +2,9 @@
 
 This repository contains scripts to apply machine learning models to analyze genomic and transcriptomic data and extract insights useful for biomarker discovery
 
-###### Project 1: Identification of Genes Contributing to Disease Diagnosis
+### Project 1: Identification of Genes Contributing to Disease Diagnosis
 Here, we provide a SamplexGene matrix as input (with each cell being the number of SNPs for that gene in a particular sample), and implement an XGBoost model to examine the accuracy of the model in classifying the samples as disease/healthy. Then, we apply SHAP to narrow down the genes that contribute the most to class prediction. You can also combine this with principal components and other covariates (age, sex, etc.).
+**Script**: xgboost_scriptwithshap.py
 
 ##### Sample input:
 
