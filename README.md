@@ -8,7 +8,7 @@ Here, we provide a SamplexGene matrix as input (with each cell being the number 
 ##### Sample input:
 
 
-| IID           | PTPN22        | FCGR2A | BTNl2 | GPR35 |
+| IID           | PTPN22        | FCGR2A | BTNL2 | GPR35 |
 | ------------- |:-------------:| ------:|------:|------:|
 | ID_1023       | 2      | 3    | 12 | 2 |
 | ID_1856       | 1      |   1  | 0  | 5 |
