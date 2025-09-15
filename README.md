@@ -1,4 +1,4 @@
-## Analysis of Genomic Data using Machine Learning: Looking at Genomic Data through a New Lens
+## Analysis of Genomic Data using Machine Learning: Looking at Genomics through a New Lens
 
 This repository contains scripts to apply machine learning models to analyze genomic and transcriptomic data and extract insights useful for biomarker discovery
 
@@ -13,6 +13,10 @@ Here, we provide a SamplexGene matrix as input (with each cell being the number 
 | ID_1023       | 2      | 3    | 12 | 2 |
 | ID_1856       | 1      |   1  | 0  | 5 |
 | id_3457       | 2      |    1  | 11 | 2 |
+
+##### Model specifics:
+
+The model implemented is XGBoost, with RandomizedSearchCV for hyperparameter tuning
 
 ##### Sample output:
 The prediction task here is classifying whether a sample is healthy or has ulcerative colitis (UC), a type of inflammatory bowel disease. This disease has low heritability (between 15 to 20%). Hence, the performance of the model is quite modest:
